@@ -1,4 +1,4 @@
-body{
+body {
     background-image: url("https://picsum.photos/id/82/1000/1000");
     background-repeat: no-repeat;
     background-position: center;
@@ -6,27 +6,45 @@ body{
     background-size: cover;
 }
 
-#header{
+#header {
     background-color: #820263;
-    color: white;
     height: 60px;
 }
 
-.nav > a {
+#header,.nav > a, #hero, #cta {
     color:white;
+
 }
 
-#hero{
+#hero {
     font-size: 22px;
-    color: white;
 }
 
 #hero > h1{
     font-size: 80px;
 }
 
-#cta{
-    background-color: #d8d8d8;
-    color:white;
+#cta {
+    background-color: #d380a7;
+}
+
+#cta:hover{
+    color:#d380a7;
+    background-color: white;
+}
+a {
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#services{
+    background-color: rgb(231, 179, 218);
+}
+
+.card{
+    background-color: white;
+    width: fit-content;
 }
